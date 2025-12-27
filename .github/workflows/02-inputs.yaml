@@ -24,6 +24,10 @@ on:
         type: environment
         required: true
         default: dev
+        options:
+          - info
+          - warning
+          - debug
 jobs: 
   print-tag:
     runs-on: ubuntu-latest
