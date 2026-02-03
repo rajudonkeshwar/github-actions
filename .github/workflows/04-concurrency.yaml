@@ -8,5 +8,5 @@ jobs:
   hello:
     runs-on: ubuntu-latest # Linux OS. We can have windows or MAC
     steps: # stages
-      - name: step1
+      - name: step1 
         run: sleep 20  
