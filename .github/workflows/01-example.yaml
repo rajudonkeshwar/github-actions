@@ -1,4 +1,4 @@
-name: HelloWorld
+name: HelloWorld1
 # When to trigger this pipeline. We can trigger on push or manual or someother events 
 # like creating PR, updating PR, creating branches, creating issues
 on: [push] # triggers
