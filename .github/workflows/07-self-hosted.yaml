@@ -4,7 +4,7 @@ jobs: # Pipeline. One workflow can have multiple pipelines
   hello:
     runs-on: self-hosted # Linux OS. We can have windows or MAC
     steps: # stages
-      - name: step1
+      - name: step1 
         run: echo "Hello World"
-      - name: step2
+      - name: step2 
         run: echo "Hello GitHub Actions"
